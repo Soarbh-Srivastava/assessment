@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "es2016", 
     "module": "commonjs",
-    "experimentalDecorators": true,      /* CRUCIAL FOR TYPEORM */
-    "emitDecoratorMetadata": true,       /* CRUCIAL FOR TYPEORM */
+    "outDir": "./dist",           
+    "rootDir": "./src",           
+    "experimentalDecorators": true,      
+    "emitDecoratorMetadata": true,       
     "strictPropertyInitialization": false
   }
 }
