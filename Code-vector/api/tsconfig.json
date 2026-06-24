@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2016", 
+    "module": "commonjs",
+    "experimentalDecorators": true,      /* CRUCIAL FOR TYPEORM */
+    "emitDecoratorMetadata": true,       /* CRUCIAL FOR TYPEORM */
+    "strictPropertyInitialization": false
+  }
+}
