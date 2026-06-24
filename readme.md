@@ -3,8 +3,8 @@
 A high-performance backend built to handle concurrent updates and fast pagination across a dataset of 200,000+ products. 
 
 ## 🚀 Live Demo
-* **Frontend UI:** [Insert Frontend URL]
-* **Backend API:** [Insert Render API URL]
+* **Frontend UI:** https://assessment-psi-two.vercel.app/
+* **Backend API:** https://assessment-0q8g.onrender.com
 
 ## 🛠️ Tech Stack
 * **Backend:** Node.js, Express, TypeScript
@@ -34,6 +34,17 @@ Generating 200,000 records via sequential inserts is highly inefficient. The inc
 
 ### 1. Clone & Install
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Soarbh-Srivastava/assessment
+```
+start backend and seed
+```
+cd assessment/Code-vector/api
 npm install
+npm run seed
+npm run dev
+cd ..
+```
+start frontend
+```
+cd product-ui
+npm run dev
