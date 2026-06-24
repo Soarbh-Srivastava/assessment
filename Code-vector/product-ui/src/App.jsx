@@ -37,7 +37,7 @@ function App() {
       }
 
       const response = await fetch(
-        `http://localhost:3000/api/products?${params.toString()}`
+        `https://assessment-0q8g.onrender.com/api/products?${params.toString()}`
       );
 
       if (!response.ok) {
